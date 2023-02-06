@@ -1,12 +1,12 @@
 import './App.css'
-
+import qr from '/images/image-qr-code.png'
 function App() {
 
   return (
     <div className='bg-primary text-center text-[15px]'>
       <div className="flex flex-col justify-center items-center w-[100vw] h-[90vh]">
         <div className=' w-60 h-120 bg-white rounded-xl'>
-          <img className='p-3 rounded-[20px]' src='\images\image-qr-code.png'></img>
+          <img className='p-3 rounded-[20px]' src={qr}></img>
           <div className='px-7 pb-5 flex-col flex gap-2'>
           <p className='text-title font-bold'>
             Improve your front-end skills by building projects
