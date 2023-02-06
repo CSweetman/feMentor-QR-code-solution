@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: 212deg 45% 89%;
+  --color-subtitle: 212deg 45% 89%;
+  --color-title: 218deg 44% 22%;
+}
